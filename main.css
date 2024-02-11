@@ -1,0 +1,78 @@
+#hom:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 5px;
+}
+
+#abo:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 5px;
+}
+
+#pro:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 5px;
+}
+
+#pack:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 5px;
+}
+
+#con:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 5px;
+}
+
+@media screen and (max-width: 400px) {
+    #prodImg {
+        width: 300px;
+    }
+
+    #map {
+        width: 300px;
+        height: 200px;
+    }
+
+    #logoimg{
+        width: 100px;
+        height: 80px;
+        margin-left: -40px;        
+    }
+
+    #top-arrow {
+        position: absolute; 
+        right: -10px; 
+        bottom: -4px; 
+        border: 2px solid black; 
+        border-radius: 200px; 
+        padding: 6px 9px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    #prodImg {
+        width: 600px;
+    }
+
+    #map {
+        width: 600px;
+        height: 400px;
+    }
+    #logoimg{
+        width: 140px;
+    }
+
+    #top-arrow {
+        position: absolute; 
+        right: -10px; 
+        bottom: 20px; 
+        border: 2px solid black; 
+        border-radius: 200px; 
+        padding: 6px 9px;
+    }    
+}
